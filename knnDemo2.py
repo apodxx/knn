@@ -12,6 +12,8 @@ from os import listdir
 from numpy import *
 import operator
 
+# 训练集为HandTrainingData中的文件 
+# 测试集为HandTestData中的文件
 
 # 1. 图片处理将图片转为固定宽高，比如32*32 然后再转为文本
 def img2txt(fileName):
